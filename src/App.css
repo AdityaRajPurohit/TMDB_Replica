@@ -1,5 +1,5 @@
 .titleBar {
-  background-color: #000;
+  background-color:   #000;
   display: block;
   color: #fff;
   padding-left: 16px
@@ -32,4 +32,19 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+.button1{
+  width: 90px;
+  background-color: #030e19;
+  font-size: 20px;
+  color:whitesmoke;
+  border-radius: 12px;
+}
+.button1:hover {
+  width: 90px;
+  font-size: 20px;
+  border-radius: 12px;
+	background: transparent;
+  color: #226fbe;
+  
 }

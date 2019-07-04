@@ -56,7 +56,7 @@ class App extends Component {
           <tbody>
             <tr>
               <td>
-                <img alt="app icon" width="50" src="green_app_icon.svg"/>
+                <img alt="app icon" width="150" height="75" src="icon.svg"/>
               </td>
               <td width="8"/>
               <td>
@@ -72,7 +72,8 @@ class App extends Component {
           width: "99%",
           paddingTop: 8,
           paddingBottom: 8,
-          paddingLeft: 16
+          paddingLeft: 16,
+          borderRadius: 12
         }} onChange={this.searchChangeHandler.bind(this)} placeholder="Enter search term"/>
 
         {this.state.rows}
